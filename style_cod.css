@@ -1,0 +1,99 @@
+.titulo_principal{
+    color: rgb(245, 161, 34);
+    text-align: center;
+    font-size: 60px;
+    }
+
+body{
+    
+    text-align: center;
+    background-image: url(interrogante/bg.jpg);
+    
+}
+
+#pie{
+    padding: 20px;
+    color: orangered;
+}
+.principal{
+    background-image: url("interrogante/interrogante.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 300px;
+}
+    
+#frase_para_modificar{
+    color: orangered;
+    background-color: wheat;
+    padding: 20px 15px;
+    width: 30%;
+    font-size: 25px;
+
+}
+
+#bt_codificar{
+  border-radius: 3px;
+  display: inline-block;
+  padding: 20px 15px;
+  text-decoration: none;
+  color: wheat;
+  background-color: orangered;
+}
+
+#bt_codificar:hover{
+    background-color: orange;
+}
+
+#bt_codificar:active{
+    background: rgb(205, 128, 5);
+}
+
+#bt_decodificar{
+  border-radius: 3px;
+  display: inline-block;
+  padding: 20px 15px;
+  text-decoration: none;
+  color: wheat;
+  background-color: orangered 
+}
+
+#bt_decodificar:hover{
+    background-color: orange;
+}
+
+#bt_decodificar:active{
+    background: rgb(205, 128, 5);
+}
+
+#frase_codificado{
+
+    margin-left: 200px;
+    width: 60%;
+    max-width: 600px;
+    height: 100px;
+    color: orangered;
+    background-color: wheat;
+    text-align: center;
+    padding: 10px 8px;
+    font-size: 30px;
+    overflow: auto;
+    
+}
+
+#bt_copiar{
+    border-radius: 3px;
+    display: inline-block;
+    padding: 20px 15px;
+    text-decoration: none;
+    color: wheat;
+    background-color: orangered 
+    
+}
+
+#bt_copiar:hover{
+    background-color: orange;
+}
+
+#bt_copiar:active{
+    background: rgb(205, 128, 5);
+}

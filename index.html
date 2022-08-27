@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+   <head>
+
+    <meta charset="UTF-8">
+    <title>CODIFICADOR</title>
+    <link rel="stylesheet" href="style_cod.css">
+    
+    </head>
+
+    <body>
+        <header>
+        <h1 class="titulo_principal">CREA UN SECRETO</h1>
+        </header>
+
+         <div class="principal">    
+
+          <input type="text" id="frase_para_modificar" 
+            style="text-transform:lowercase;" value=""
+            placeholder="escribe tu mensaje" 
+            oninput="this.value = this.value.replace(/[^a-zA-Z0-9 &nbsp]/,'')">
+          <button id="bt_codificar" type="button"
+            onclick="codificar()">Codificar</button>
+          <button id="bt_decodificar" type="button"
+            onclick="decodificar()">Decodificar</button>
+           <p id="frase_codificado" style="text-transform:lowercase;"></p> 
+          <button id="bt_copiar" type="button"
+            onclick="copiar()">COPIAR TEXTO</button>
+        
+         </div>
+
+         <footer id="pie">
+            Hecho por: YASMANI JOSE MARTINEZ CASTRO
+         </footer>
+        
+<script src="script_cod.js"></script>
+    </body>
+
+</html>
